@@ -145,7 +145,7 @@ class ClinicalTrialsAPI:
             status_module = protocol_section.get('statusModule', {})
             design_module = protocol_section.get('designModule', {})
             conditions_module = protocol_section.get('conditionsModule', {})
-            interventions_module = protocol_section.get('interventionsModule', {})
+            arms_interventions_module = protocol_section.get('armsInterventionsModule', {})
             sponsor_collaborators_module = protocol_section.get('sponsorCollaboratorsModule', {})
             locations_module = protocol_section.get('locationsModule', {})
             
@@ -172,9 +172,10 @@ class ClinicalTrialsAPI:
                     'description': None
                 })
             
-            # Extract interventions
+            # Extract interventions from armsInterventionsModule
             interventions = []
-            for intervention in interventions_module.get('interventions', []):
+            interventions_list = arms_interventions_module.get('interventions', [])
+            for intervention in interventions_list:
                 interventions.append({
                     'name': intervention.get('name', ''),
                     'type': intervention.get('type', ''),
