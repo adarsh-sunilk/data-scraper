@@ -1,0 +1,53 @@
+[
+  {
+    "NCT ID": "NCT02876419",
+    "Brief Title": "A Long Term Follow-up Study of Patients From the REP 301 Protocol",
+    "Official Title": "A Long Term Follow-up Study of Patients From the REP 301 Protocol",
+    "Status": "COMPLETED",
+    "Current Phase": null,
+    "Start Date": "2016-08-01T00:00:00",
+    "Completion Date": "2019-12-01T00:00:00",
+    "Primary Completion Date": "2019-11-13T00:00:00",
+    "Conditions": "Hepatitis B, Chronic; Hepatitis D, Chronic",
+    "Interventions": "",
+    "Sponsors": "Replicor Inc.",
+    "Locations": "",
+    "Study Type": "INTERVENTIONAL",
+    "Enrollment": null,
+    "Study Population": null
+  },
+  {
+    "NCT ID": "NCT01449071",
+    "Brief Title": "Study Evaluating the Pharmacokinetics and Safety of Epratuzumab in Japanese Systemic Lupus Erythematosus (SLE)",
+    "Official Title": "A Phase1/2, Randomized, Parallel-group, Double-Blind, Placebo-Controlled, Multicenter Study of the Safety and Pharmacokinetics of One 12 Week Treatment Cycle of Epratuzumab in Japanese Systemic Lupus Erythematosus (SLE) Subjects With Moderate to Severe Disease",
+    "Status": "COMPLETED",
+    "Current Phase": "PHASE1, PHASE2",
+    "Start Date": "2011-10-01T00:00:00",
+    "Completion Date": "2013-03-01T00:00:00",
+    "Primary Completion Date": "2013-03-01T00:00:00",
+    "Conditions": "Systemic Lupus Erythematosus",
+    "Interventions": "",
+    "Sponsors": "UCB Pharma",
+    "Locations": "",
+    "Study Type": "INTERVENTIONAL",
+    "Enrollment": null,
+    "Study Population": null
+  },
+  {
+    "NCT ID": "NCT04058964",
+    "Brief Title": "Pembrolizumab and PEGPH20 in Treating Patients With Metastatic Pancreatic Cancer",
+    "Official Title": "A Pilot Study to Assess the Efficacy and Safety Effects of Pembrolizumab and PEGPH20 (Pegvorhyaluronidase Alfa) in Patients With Metastatic Pancreatic Cancer",
+    "Status": "WITHDRAWN",
+    "Current Phase": "PHASE2",
+    "Start Date": "2020-02-01T00:00:00",
+    "Completion Date": "2022-10-31T00:00:00",
+    "Primary Completion Date": "2022-10-31T00:00:00",
+    "Conditions": "Metastatic Pancreatic Adenocarcinoma; Stage IV Pancreatic Cancer AJCC v8",
+    "Interventions": "",
+    "Sponsors": "M.D. Anderson Cancer Center",
+    "Locations": "",
+    "Study Type": "INTERVENTIONAL",
+    "Enrollment": null,
+    "Study Population": null
+  }
+]
