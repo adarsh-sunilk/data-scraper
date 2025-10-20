@@ -12,6 +12,7 @@ from clinical_trials_api import ClinicalTrialsAPI
 from interventional_trials_processor import InterventionalTrialsProcessor
 from models import SearchFilters
 from config import DEFAULT_SEARCH_TERMS
+from phase_dates_processor import PhaseDatesProcessor
 
 # Configure logging
 logging.basicConfig(
@@ -267,6 +268,48 @@ def analyze_phases(query, max_results, output_format, output_dir):
         
     except Exception as e:
         logger.error(f"Error during phase analysis: {e}")
+        click.echo(f"❌ Error: {e}", err=True)
+        raise click.Abort()
+
+
+@cli.command()
+@click.option('--query', '-q', default='', help='Search query for interventional clinical trials')
+@click.option('--max-results', '-m', default=200, help='Maximum number of results to retrieve')
+@click.option('--output-dir', '-o', default='./data', help='Output directory for exported files')
+@click.option('--verbose', '-v', is_flag=True, help='Enable verbose logging')
+def export_phase_dates(query, max_results, output_dir, verbose):
+    """
+    Export per-product Phase 1/3 start/end dates and success flags, including company and disorders.
+    Columns:
+      Company, Product, Disorder/Condition, NCT ID,
+      Phase1 Start, Phase1 End, Phase1 Success,
+      Phase3 Start, Phase3 End, Phase3 Success
+    """
+    if verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
+
+    api = ClinicalTrialsAPI()
+    processor = InterventionalTrialsProcessor(output_dir)
+    phase_exporter = PhaseDatesProcessor(output_dir)
+
+    # default query
+    if not query:
+        query = ' '.join(DEFAULT_SEARCH_TERMS)
+
+    logger.info(f"Exporting phase dates for interventional trials with query: '{query}'")
+
+    try:
+        trials = api.search_trials(query=query, filters=SearchFilters(study_type="INTERVENTIONAL"), max_results=max_results)
+        interventional_trials = processor.filter_interventional_trials(trials)
+        if not interventional_trials:
+            click.echo("No interventional trials found for the given query")
+            return
+
+        out_file = phase_exporter.export_phase_dates(interventional_trials, filename_prefix="phase_dates")
+        click.echo(f"✅ Phase dates exported: {out_file}")
+
+    except Exception as e:
+        logger.error(f"Error exporting phase dates: {e}")
         click.echo(f"❌ Error: {e}", err=True)
         raise click.Abort()
 

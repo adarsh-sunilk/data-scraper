@@ -1,0 +1,42 @@
+Company,Product,Disorder/Condition,NCT ID,Phase1 Start,Phase1 End,Phase1 Success,Phase3 Start,Phase3 End,Phase3 Success
+AstraZeneca,AZD1775,Previously Treated Non Small Cell Lung Cancer,NCT02087176,,,0,,,0
+AstraZeneca,AZD1775 Placebo,Previously Treated Non Small Cell Lung Cancer,NCT02087176,,,0,,,0
+AstraZeneca,Antimitotic Agent,Previously Treated Non Small Cell Lung Cancer,NCT02087176,,,0,,,0
+AstraZeneca,pegfiligrastim,Previously Treated Non Small Cell Lung Cancer,NCT02087176,,,0,,,0
+Oslo University Hospital,,"Ovarian Neoplasm, Chemotherapeutic Toxicity, Chemotherapy Effect, Chemotherapy-induced Neutropenia, Chemotherapy-induced Nausea and Vomiting",NCT05512676,,,0,,,0
+Medical University of South Carolina,,PET CT,NCT03146117,,,0,,,0
+"Arjun Balar, MD",Atezolizumab,Urothelial Carcinoma,NCT03272217,,,0,,,0
+"Arjun Balar, MD",Bevacizumab,Urothelial Carcinoma,NCT03272217,,,0,,,0
+BlossomHill Therapeutics,BH-30643,NSCLC (Advanced Non-small Cell Lung Cancer),NCT06706076,2025-01-09T00:00:00,2029-01-31T00:00:00,1,,,0
+BlossomHill Therapeutics,BH-30643,NSCLC (Advanced Non-small Cell Lung Cancer),NCT06706076,2025-01-09T00:00:00,2029-01-31T00:00:00,1,,,0
+Fred Hutchinson Cancer Center,Autologous Anti-CD19CAR-4-1BB-CD3zeta-EGFRt-expressing T Lymphocytes,"CD19-Positive Neoplastic Cells Present, Recurrent Adult Acute Lymphoblastic Leukemia, Recurrent Chronic Lymphocytic Leukemia, Recurrent Diffuse Large B-Cell Lymphoma, Recurrent Mantle Cell Lymphoma, Recurrent Non-Hodgkin Lymphoma, Recurrent Small Lymphocytic Lymphoma, Refractory Acute Lymphoblastic Leukemia, Refractory Chronic Lymphocytic Leukemia, Refractory Diffuse Large B-Cell Lymphoma, Refractory Mantle Cell Lymphoma, Refractory Non-Hodgkin Lymphoma, Refractory Small Lymphocytic Lymphoma",NCT01865617,2013-05-22T00:00:00,2021-03-26T00:00:00,1,,,0
+Novartis Pharmaceuticals,alpelisib,"HR+, HER2-, Advanced Breast Cancer",NCT04473040,,,0,,,0
+Vastra Gotaland Region,investigation setting (cystoscopy + CTU + cytology),"Hematuria, Acute Cystitis With Hematuria, Bladder Cancer, Urothelial Carcinoma, Renal Cancer",NCT07037589,,,0,,,0
+Vastra Gotaland Region,Cystoscopy - CTU - cytology (if needed),"Hematuria, Acute Cystitis With Hematuria, Bladder Cancer, Urothelial Carcinoma, Renal Cancer",NCT07037589,,,0,,,0
+Novartis Pharmaceuticals,Investigational Treatment,Actinic Keratosis,NCT02404389,,,0,,,0
+Novartis Pharmaceuticals,Active comparator,Actinic Keratosis,NCT02404389,,,0,,,0
+"Hebei Senlang Biotechnology Inc., Ltd.",Auto CAR-T,Non-hodgkin's Lymphoma,NCT04666168,,,0,,,0
+"Hebei Senlang Biotechnology Inc., Ltd.","Cyclophosphamide,Fludarabine",Non-hodgkin's Lymphoma,NCT04666168,,,0,,,0
+"Hebei Senlang Biotechnology Inc., Ltd.",Leukapheresis,Non-hodgkin's Lymphoma,NCT04666168,,,0,,,0
+University of Hawaii,Exercise,Breast Cancer,NCT04013568,,,0,,,0
+Jiangsu Province Nanjing Brain Hospital,Ivonescimab combined with chemotherapy,"NSCLC, Chemotherapy, Leptomeningeal Metastases, EGFR-TKI, AK112",NCT06766591,,,0,,,0
+Gruppo Italiano Malattie EMatologiche dell'Adulto,Nilotinib,Chronic Myeloid Leukemia,NCT01535391,,,0,2012-01-01T00:00:00,2014-11-01T00:00:00,1
+National Cancer Institute (NCI),gefitinib,"Untreated Childhood Anaplastic Astrocytoma, Untreated Childhood Anaplastic Oligodendroglioma, Untreated Childhood Brain Stem Glioma, Untreated Childhood Giant Cell Glioblastoma, Untreated Childhood Glioblastoma, Untreated Childhood Gliomatosis Cerebri, Untreated Childhood Gliosarcoma, Untreated Childhood Oligodendroglioma",NCT00042991,2002-07-01T00:00:00,2010-02-01T00:00:00,1,,,0
+National Cancer Institute (NCI),radiation therapy,"Untreated Childhood Anaplastic Astrocytoma, Untreated Childhood Anaplastic Oligodendroglioma, Untreated Childhood Brain Stem Glioma, Untreated Childhood Giant Cell Glioblastoma, Untreated Childhood Glioblastoma, Untreated Childhood Gliomatosis Cerebri, Untreated Childhood Gliosarcoma, Untreated Childhood Oligodendroglioma",NCT00042991,2002-07-01T00:00:00,2010-02-01T00:00:00,1,,,0
+National Cancer Institute (NCI),pharmacological study,"Untreated Childhood Anaplastic Astrocytoma, Untreated Childhood Anaplastic Oligodendroglioma, Untreated Childhood Brain Stem Glioma, Untreated Childhood Giant Cell Glioblastoma, Untreated Childhood Glioblastoma, Untreated Childhood Gliomatosis Cerebri, Untreated Childhood Gliosarcoma, Untreated Childhood Oligodendroglioma",NCT00042991,2002-07-01T00:00:00,2010-02-01T00:00:00,1,,,0
+National Cancer Institute (NCI),laboratory biomarker analysis,"Untreated Childhood Anaplastic Astrocytoma, Untreated Childhood Anaplastic Oligodendroglioma, Untreated Childhood Brain Stem Glioma, Untreated Childhood Giant Cell Glioblastoma, Untreated Childhood Glioblastoma, Untreated Childhood Gliomatosis Cerebri, Untreated Childhood Gliosarcoma, Untreated Childhood Oligodendroglioma",NCT00042991,2002-07-01T00:00:00,2010-02-01T00:00:00,1,,,0
+"Millennium Pharmaceuticals, Inc.",Bortezomib,Non-Germinal B-Cell-like (GCB) Diffuse Large B-cell Lymphoma (DLBCL),NCT00931918,,,0,,,0
+"Millennium Pharmaceuticals, Inc.",Rituximab,Non-Germinal B-Cell-like (GCB) Diffuse Large B-cell Lymphoma (DLBCL),NCT00931918,,,0,,,0
+"Millennium Pharmaceuticals, Inc.",Cyclophosphamide,Non-Germinal B-Cell-like (GCB) Diffuse Large B-cell Lymphoma (DLBCL),NCT00931918,,,0,,,0
+"Millennium Pharmaceuticals, Inc.",Doxorubicin,Non-Germinal B-Cell-like (GCB) Diffuse Large B-cell Lymphoma (DLBCL),NCT00931918,,,0,,,0
+"Millennium Pharmaceuticals, Inc.",Vincristine,Non-Germinal B-Cell-like (GCB) Diffuse Large B-cell Lymphoma (DLBCL),NCT00931918,,,0,,,0
+"Millennium Pharmaceuticals, Inc.",Prednisone,Non-Germinal B-Cell-like (GCB) Diffuse Large B-cell Lymphoma (DLBCL),NCT00931918,,,0,,,0
+Central South University,,Lung Cancer Associated With Cystic Airspaces,NCT07066813,,,0,,,0
+Cambridge Antibody Technology,Immunotoxin therapy,Leukemia,NCT00457860,2007-03-01T00:00:00,,1,,,0
+Cambridge Antibody Technology,CAT-8015 immunotoxin,Leukemia,NCT00457860,2007-03-01T00:00:00,,1,,,0
+Cambridge Antibody Technology,Biological therapy,Leukemia,NCT00457860,2007-03-01T00:00:00,,1,,,0
+Weill Medical College of Cornell University,huJ591,Prostate Cancer,NCT02693860,2016-02-04T00:00:00,2017-02-10T00:00:00,1,,,0
+Weill Medical College of Cornell University,89Zr-J591,Prostate Cancer,NCT02693860,2016-02-04T00:00:00,2017-02-10T00:00:00,1,,,0
+"University Health Network, Toronto",Bupivacaine (study group),"Transversus Abdominis Plane (TAP) Block Catheter, DIEP or Free MS-TRAM Breast Reconstruction, Local Pain Management, Abdominal/ Donor Site",NCT01398982,,,0,,,0
+"University Health Network, Toronto",Isotonic saline (control group),"Transversus Abdominis Plane (TAP) Block Catheter, DIEP or Free MS-TRAM Breast Reconstruction, Local Pain Management, Abdominal/ Donor Site",NCT01398982,,,0,,,0
+Hoffmann-La Roche,,Rheumatoid Arthritis,NCT01309282,,,0,,,0
